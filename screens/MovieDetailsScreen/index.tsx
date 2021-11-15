@@ -1,26 +1,37 @@
 import React ,{useState}  from 'react'
-import { Image,View ,Pressable} from 'react-native'
+import { Image,View ,Pressable,FlatList} from 'react-native'
 import { MaterialIcons, Entypo, AntDesign, Ionicons, Feather, FontAwesome } from '@expo/vector-icons'; 
 import styles from './styles'
 import movie from '../../assets/data/movie'
 import { Text } from '../../components/Themed'
 import {Picker} from '@react-native-picker/picker';
 import EpisodeItem from '../../components/EpisodeItem';
+
+import VideoPlayer from '../../components/VideoPlayer';
+
 const firstSeason = movie.seasons.items[0];
 const firstEpisode = movie.seasons.items[0].episodes.items[0]
 const MovieDetailsScreen = () =>{
-    const [movie, setMovie] = useState<Movie|undefined>(undefined);
-    const [seasons, setSeasons] = useState<Season[]>([]);
-    const [episodes, setEpisodes] = useState<Episode[]>([]);
-
-    const [currentSeason, setCurrentSeason] = useState<Season|undefined>(undefined);
-    const [currentEpisode, setCurrentEpisode] = useState<Episode|undefined>(undefined);
-
-    const seasonNames = seasons ? seasons.map(season => season.name) : [];
+  
+    const [currentSeason, setCurrentSeason] = useState(firstSeason);
+    const [currentEpisode, setCurrentEpisode] = useState(firstSeason.episodes.items[0]);
+    const seasonNames = movie.seasons.items.map(season => season.name);
+    
     return (
         <View>
-            <Image style = {styles.image}source = {{uri: firstEpisode.poster}} />
+            <VideoPlayer episode={currentEpisode} />   
             
+        <FlatList
+        data ={currentSeason.episodes.items}
+        renderItem={({ item }) => (
+            <EpisodeItem 
+            episode={item} 
+            onPress={
+                setCurrentEpisode}
+            
+        />)}
+        style={{ marginBottom: 250 }}
+        ListHeaderComponent={(
             <View style = {{padding:12}}
             >
                 <EpisodeItem episode = {firstEpisode}/>
@@ -71,27 +82,28 @@ const MovieDetailsScreen = () =>{
                                 <Text style={{color: 'darkgrey', marginTop: 5 }}>Share</Text>
                             </View>
                         </View>
-                        <View style={{ backgroundColor: 'white'}}></View>
-
                         <Picker
-                                selectedValue={currentSeason.name}
-                                onValueChange={(itemValue, itemIndex) => {
-                                    setCurrentSeason(seasons[itemIndex])
-                                }}
-                                style={{color: 'white', width: 130 }}
-                                itemStyle={{backgroundColor: 'white'}}
-                                dropdownIconColor={'white'}
-                            >
-                                {seasonNames.map(seasonName => (
-                                    <Picker.Item label={seasonName} value={seasonName} key={seasonName} />
-                                ))}
-                            </Picker>  
-                            
+                            selectedValue={currentSeason.name}
+                            onValueChange={(itemValue, itemIndex) => {
+                                setCurrentSeason(movie.seasons.items[itemIndex])
+                            }}
+                            style={{color: 'white', width: 130 }}
+                            dropdownIconColor={'white'}
+                        >
+                            {seasonNames.map(seasonName => (
+                                <Picker.Item label={seasonName} value={seasonName} key={seasonName} />
+                            ))}
+                        </Picker>
+                      
+
+                      
                            
 
             
             
         </View>
+        )}
+        />
         </View>
         
     )

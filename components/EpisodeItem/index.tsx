@@ -41,3 +41,4 @@ const EpisodeItem = (props: EpisodeItemProps) => {
 };
 
 export default EpisodeItem;
+
