@@ -7,6 +7,7 @@ import { Text, View } from '../../components/Themed';
 import styles from './styles';
 import HomeCategory from '../../components/HomeCategory';
 import { Category } from '../../src/models'
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 const HomeScreen = () => {
   const [categories, setCategories] = useState<Category[]>([]);
@@ -20,13 +21,13 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
         {/* List of categories */}
         <FlatList
             data={categories}
             renderItem={({item}) => <HomeCategory category={item} />}
         />
-    </View>
+    </SafeAreaView>
   );
 }
 
