@@ -36,11 +36,10 @@
 * InApp subscription. 
   -  Added Inapp subscription so that only users who paid for service can view those.
   
-* 
-  - he most beautiful, modern and amazing Mobile UI Design is right 
-  
+* Modern UI. 
+  -  The most beautiful, modern and amazing Netflix Mobile UI Design
 
-
+ 
 
 ## How To Use
 
@@ -89,8 +88,8 @@ This software uses the following :
 
 ## You may also like...
 
-- [Netflix](https://github.com/amitmerchant1990/pomolectron) - A Netflix clone
-- [Air Sense](https://github.com/amitmerchant1990/correo) - Air Quality Predictor and Weather Application
+- [chatValve](https://github.com/OmkarAcharekar/Signal_Clone) - A Netflix clone
+- [Air Sense](https://github.com/OmkarAcharekar/AirSense) - Air Quality Predictor and Weather Application
 
 
 ## License
