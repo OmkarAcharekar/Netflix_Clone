@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/OmkarAcharekar/Signal_Clone/blob/master/assets/images/netflixreadme.png" alt="Markdownify" width="200"></a>
+  <img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/netflixreadme.png" alt="Markdownify" width="200"></a>
   <br style="font-size:300%;">
    ChatValve
   <br>
