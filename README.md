@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Recreated the current Netflix's UI. Added the backend functionality as well. Hoping to add more features in future</h4>
+<h4 align="center">Recreated the current Netflix Application. Best part? Added the backend functionality as well.Hoping to add more features in future</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![React_Native](https://img.shields.io/badge/react%20native-v0.66-orange)
@@ -33,8 +33,8 @@
 * Registration page and contact integration
   - App require users to sign in with a phone number. It sends an SMS confirmation code for security reasons. After registering, users  can login in their Account.
   
-* Added Inapp Subscriptions
-  - Added Inapp subcriptions so that user who has paid for the service can view those.
+* InApp subscription.
+  - Added Inapp subscription so that only users who paid for service can view those.
 
 * Most Modern UI
   - Modern Netflix Mobile App UI Design with Amazing User Experience.
