@@ -3,7 +3,7 @@
   <br>
   <img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/netflixreadme.png" alt="Markdownify" width="200"></a>
   <br style="font-size:300%;">
-   NetfliX Clone
+   Netflix Clone
   <br>
 </h1>
 
@@ -29,20 +29,15 @@
 
 ## Key Features
 
-* Encryption and Security
-  - Messages are encrypted on the sender system or device, and only the intended recipient can decrypt it.
+
 * Registration page and contact integration
   - App require users to sign in with a phone number. It sends an SMS confirmation code for security reasons. After registering, users  can login in their Account.
   
-* Offers both private and group chats. 
-  -  A group chat option lets users create a group and chat with multiple people at the same time.
-  
-* Push notification
-  -  It keep users active within the app and inform them when new messages have arrived or someone comes online.
-  
-* Messages
-  - Users can send various type of messages like Audio Message,Text Messages ,Images and can also see user online status.
+* Added Inapp Subscriptions
+  - Added Inapp subcriptions so that user who has paid for the service can view those.
 
+* Most Modern UI
+  - Modern Netflix Mobile App UI Design with Amazing User Experience.
 
 ## How To Use
 
