@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Recreated</h4>
+<h4 align="center">Recreated the current Netflix's UI. Best part? It has Inapp subscription as well. Hoping to add the backend functionality sometime in the future.</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![React_Native](https://img.shields.io/badge/react%20native-v0.66-orange)
