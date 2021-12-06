@@ -1,13 +1,13 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/OmkarAcharekar/Signal_Clone/blob/master/assets/images/bubble-chat.png" alt="Markdownify" width="200"></a>
+  <img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/netflix_logo.png" alt="Markdownify" width="200"></a>
   <br style="font-size:300%;">
-   ChatValve
+   NetfliX Clone
   <br>
 </h1>
 
-<h4 align="center">An  Real Time  End-To-End  Encrypted Messaging  Application</h4>
+<h4 align="center">Recreated</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![React_Native](https://img.shields.io/badge/react%20native-v0.66-orange)
