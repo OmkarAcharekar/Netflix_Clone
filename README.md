@@ -39,6 +39,31 @@
 * Most Modern UI
   - Modern Netflix Mobile App UI Design with Amazing User Experience.
 
+
+Screenshots
+-----------
+
+<table>
+  <tr>
+     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/aas.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/uuu.png" width="300" height="450"></td>
+    <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/na.png" width="300" height="450"></td>
+   
+  </tr>
+   <tr>
+     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/qqq.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/SAVINH.png" width="300" height="450"></td>
+    <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/AQI.png" width="300" height="450"></td>
+      
+   
+  </tr>
+  
+ </table>
+
+
+
+
+
 ## How To Use
 
 To clone and run this application, you should have [Git](https://git-scm.com/downloads), [React Native & Expo environment set up](https://expo.dev/), [AWS Account and AWS CLI setup](https://aws.amazon.com/console/),[Node.js](https://nodejs.org/en/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
