@@ -85,6 +85,8 @@ $ amplify push
 $ npm start
 ```
 
+-   Leave a star! :star:
+
 
 
 
