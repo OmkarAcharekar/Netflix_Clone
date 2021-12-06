@@ -47,10 +47,10 @@ To clone and run this application, you should have [Git](https://git-scm.com/dow
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/OmkarAcharekar/Signal_Clone.git
+$ git clone https://github.com/OmkarAcharekar/Netflix_Clone.git
 
 # Go into the repository
-$ cd Signal_Clone
+$ cd Netflix_Clone
 
 # Install dependencies
 $ npm install
