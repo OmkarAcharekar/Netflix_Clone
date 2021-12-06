@@ -50,7 +50,7 @@ To clone and run this application, you should have [Git](https://git-scm.com/dow
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/OmkarAcharekar/Signal_Clone.git
+$ git clone https://github.com/OmkarAcharekar/Netflix_Clone.git
 
 # Go into the repository
 $ cd Signal_Clone
@@ -92,8 +92,8 @@ This software uses the following :
 
 ## You may also like...
 
-- [Netflix](https://github.com/amitmerchant1990/pomolectron) - A Netflix clone
-- [Air Sense](https://github.com/amitmerchant1990/correo) - Air Quality Predictor and Weather Application
+- [ChatValve](https://github.com/OmkarAcharekar/ChatValve) - A Real Time Chatting Application
+- [Air Sense](https://github.com/OmkarAcharekar/AirSense) - Air Quality Predictor and Weather Application
 
 
 ## License
