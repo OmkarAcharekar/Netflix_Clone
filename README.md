@@ -45,15 +45,15 @@ Screenshots
 
 <table>
   <tr>
-     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/aas.png" width="300" height="450"></td>
-     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/uuu.png" width="300" height="450"></td>
-    <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/na.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/n.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/e.png" width="300" height="450"></td>
+    <td><img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/f.png" width="300" height="450"></td>
    
   </tr>
    <tr>
-     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/qqq.png" width="300" height="450"></td>
-     <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/SAVINH.png" width="300" height="450"></td>
-    <td><img src="https://github.com/OmkarAcharekar/AirSense/blob/master/app/src/main/assets/images/AQI.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/d.png" width="300" height="450"></td>
+     <td><img src="https://github.com/OmkarAcharekar/Netflix_Clone/blob/master/assets/images/a.png" width="300" height="450"></td>
+   
       
    
   </tr>
