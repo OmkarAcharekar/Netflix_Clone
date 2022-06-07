@@ -123,5 +123,5 @@ MIT
 
 ---
 
-> [omkaracharekar.com](https://flamboyant-ramanujan-9f5033.netlify.app/) &nbsp;&middot;&nbsp;
+> [omkaracharekar.com](https://delicate-kashata-f1f66c.netlify.app/) &nbsp;&middot;&nbsp;
 > GitHub [OmkarAcharekar](https://github.com/OmkarAcharekar) &nbsp;&middot;&nbsp;
