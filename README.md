@@ -92,7 +92,7 @@ $ npm start
 
 ## Download
 
-You can [download]() the latest installable version of Netflix Clone for android and ios.
+You can [download]() the latest installable version of Netflix Clone for Android and Ios.
 
 
 
